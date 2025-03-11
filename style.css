@@ -10,6 +10,9 @@ body {
 .profile-photo:hover {
     transform: scale(1.1) rotate(3deg); /* Adds animation on hover */
 }
+.profile-photo {
+    border: 10px solid #900db8; /* Adds animation on hover */
+}
 
 
 .navbar {
