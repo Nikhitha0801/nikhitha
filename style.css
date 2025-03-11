@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f3e5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.profile-photo:hover {
+    transform: scale(1.1) rotate(3deg); /* Adds animation on hover */
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #a792ac, #9575cd, #4fc3f7);
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    color: #900db8;
+}
+
+section {
+    padding: 80px 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section {
+    background: #e1bee7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skills-box {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tech-skills {
+    background: #d1c4e9;
+}
+
+.soft-skills {
+    background: #b2ebf2;
+}
+
+.contact-box {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #e3f2fd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
